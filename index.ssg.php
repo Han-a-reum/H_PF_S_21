@@ -1,16 +1,10 @@
-<?php
-$pageCode = 'main';
-?>
 <?php require_once "head.php"; ?>
-<div id="fullpage">
-  <section class="section section-main-1" data-anchor="section-main-1">
-    메인 섹션 1
-  </section>
-  <section class="section section-main-2" data-anchor="section-main-2">
-    메인 섹션 2
-  </section>
-  <section class="section section-main-3" data-anchor="section-main-3">
-    메인 섹션 3
-  </section>
-</div>
-<?php require_once "foot.php"; ?>
+<section class="section-main-1">
+    <div class="bn_buttom">
+        <img id="img_1" src="resource/img/bn_1_1_3.svg" alt="">
+    </div>
+    <div class="bn_1_1_0">
+        <img id="img_1_1" src="resource/img/bn_1_1_0.png" alt="">
+    </div>
+</section>
+<?php require_once "foot.php"; ?> 
