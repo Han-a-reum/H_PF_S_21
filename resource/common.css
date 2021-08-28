@@ -46,7 +46,6 @@ body {
 
 .top-bar {
   position: absolute;
-  border: 1px solid red;
   width: 166px;
   top:calc(50% - 320px);
   left:calc(50% + 500px);
@@ -70,12 +69,11 @@ body {
 
 .bn_buttom > img {
   position: absolute;
-  border: 1px solid red;
-  width: 885px;
-  height: 1022px;
+  width: 76px;
+  height: 75px;
   z-index: 1;
-  top:calc(50% - 500px);
-  left:calc(50% - 450px);
+  top:calc(50% - 70px);
+  left:calc(50% + 280px);
 }
 
 .menu_3_1 > li {
