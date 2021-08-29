@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
 @font-face {
-    font-family: 'GongGothicLight';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'GongGothicLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -23,7 +23,7 @@
 
 html, body {
   overflow:hidden;
-  font-family: 'Teko', 'GongGothicMedium', sans-serif;
+  font-family: 'Teko', 'GongGothicLight', 'GongGothicMedium', 'GongGothicBold', sans-serif;
 }
 
 img {
@@ -167,38 +167,15 @@ body {
   position: absolute;
   width: 423px;
   height: 545px;
-  top:calc(50% - 425px);
-  left:calc(50% - 776px);
+  top:calc(50% - 458px);
+  left:calc(50% - 757px);
 }
 
 .about_3{
   position: absolute;
   width: 426px;
   height: 644px;
-  top:calc(50% - 280px);
-  left:calc(50% - 37px);
+  top:calc(50% - 270px);
+  left:calc(50% - 18px);
 }
 
-.text_about_1_1{
-  position: absolute;
-  top:calc(50% - 120px);
-  left:calc(50% - 350px);
-  display: flex;
-  flex-direction: column;
-  font-size: 1.3rem;
-  letter-spacing:2.5px;
-  font-weight: 300;
-  padding-bottom: 20px;
-}
-
-.text_about_1_2{
-  position: absolute;
-  top:calc(50% - 120px);
-  left:calc(50% - 300px);
-  display: flex;
-  flex-direction: column;
-  font-size: 1.2rem;
-  letter-spacing:2.5px;
-  font-weight:lighter;
-  padding-bottom: 26px;
-}
