@@ -220,3 +220,45 @@ body {
   left:calc(50% - 18px);
 }
 
+.pf_1_1{
+  position: absolute;
+  height: 900px;
+  width:1250px;
+  top:calc(50% - 440px);
+  left:calc(50% - 795px);
+}
+
+.bn_3_1_1{
+  border: 1px solid red;
+  width: 412px;
+  height: 530px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid red;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+}
