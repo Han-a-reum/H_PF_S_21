@@ -23,17 +23,6 @@
   <header class="top-bar">
     <a href="index.ssg.php"><img src="resource/img/menu_1.svg" alt=""></a>
     <a href="aboutMe.ssg.php"><img src="resource/img/menu_2.svg" alt=""></a>
-    <a href="pf.ssg.php"><img src="resource/img/menu_3.svg" alt="">
-      <ul class="menu_3_1">
-        <li><a href="pf_1.ssg.php">Persnal Website</a></li>
-        <li><a href="pf_2.ssg.php">Mobile UI/UX</a></li>
-        <li><a href="pf_3.ssg.php">Website Design</a></li>
-      </ul>
-    </a>
-    <a href="etc.ssg.php"><img src="resource/img/menu_4.svg" alt="">
-    <ul class="menu_3_2">
-        <li><a href="pf_1.ssg.php">Movie Poster</a></li>
-        <li><a href="pf_2.ssg.php">Festival Poster</a></li>
-        <li><a href="pf_3.ssg.php">ETC.</a></li>
-      </ul></a>
+    <a href="pf.ssg.php"><img src="resource/img/menu_3.svg" alt=""></a>
+    <a href="etc.ssg.php"><img src="resource/img/menu_4.svg" alt=""></a>
   </header>
