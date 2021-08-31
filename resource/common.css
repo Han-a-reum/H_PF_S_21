@@ -218,6 +218,14 @@ body {
   height: 72px;  
 }
 
+.bn_4_2_1{
+  position: absolute;
+  height: 329px;
+  width:173px;
+  top:calc(50% + 300px);
+  left:calc(50% - 120px);
+}
+
 .swiper {
   width: 100%;
   height: 100%;
