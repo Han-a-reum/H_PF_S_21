@@ -186,15 +186,26 @@ body {
 }
 
 .bn_3_1_1{
-  border: 1px solid red;
   width: 412px;
   height: 530px;
 }
 
 .bn_3_1_2{
-  border: 1px solid red;
   width: 412px;
   height: 72px;
+}
+
+.bn_3_1_2_2{
+  width: 412px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bn_3_1_2_1, .bn_3_1_3{
+  width: 200px;
+  height: 72px;  
 }
 
 .swiper {

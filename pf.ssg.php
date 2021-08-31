@@ -12,11 +12,14 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_1_1" src="resource/img/bn_3_1_1.png" alt="">
-        <img class="bn_3_1_2" src="resource/img/bn_3_1_2.png" alt="">
+        <img class="bn_3_1_2" src="resource/img/bn_3_1_2.svg" alt="">
       </div>
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_1_1" src="resource/img/bn_3_1_1.png" alt="">
-        <img class="bn_3_1_2" src="resource/img/bn_3_1_2.png" alt="">
+        <div class="bn_3_1_2_2">
+          <img class="bn_3_1_2_1" src="resource/img/bn_3_1_2.svg" alt="">
+          <img class="bn_3_1_3" src="resource/img/bn_3_1_3.svg" alt="">
+        </div>
       </div>
       <div class="swiper-slide">Slide 3</div>
       <div class="swiper-slide">Slide 4</div>
