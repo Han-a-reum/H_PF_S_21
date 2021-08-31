@@ -219,6 +219,7 @@ body {
 }
 
 .bn_4_2_1{
+  cursor: pointer;
   position: absolute;
   height: 329px;
   width:173px;
