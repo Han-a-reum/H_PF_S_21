@@ -32,7 +32,7 @@ img {
 
 body {
   min-height:100vh;
-  background-image:url(img/bg_1_0.png);
+  background-image:url(img/bg_1_0.jpg);
   background-color: #26272B;
   background-size:1920px;
   background-position:center;
@@ -87,7 +87,7 @@ body {
   position: absolute;
   width: 166px;
   top:calc(50% - 320px);
-  left:calc(50% + 500px);
+  left:calc(50% + 645px);
   height:650px;
   text-align: center;
 }
@@ -151,7 +151,7 @@ body {
 .about_1 {
   position: absolute;
   top:calc(50% - 535px);
-  left:calc(50% - 900px);
+  left:calc(50% - 750px);
   width: 1450px;
   height: 1080px;
 }
@@ -161,7 +161,7 @@ body {
   width: 423px;
   height: 545px;
   top:calc(50% - 458px);
-  left:calc(50% - 757px);
+  left:calc(50% - 610px);
 }
 
 .about_3{
@@ -169,7 +169,16 @@ body {
   width: 426px;
   height: 644px;
   top:calc(50% - 270px);
-  left:calc(50% - 18px);
+  left:calc(50% + 133px);
+}
+
+.img_1_1 {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+.img_1_1:hover {
+  opacity: 1;
 }
 
 .pf_1_1{
@@ -177,7 +186,7 @@ body {
   height: 900px;
   width:1250px;
   top:calc(50% - 440px);
-  left:calc(50% - 795px);
+  left:calc(50% - 645px);
   }
 
 .swiper-slide_1{
