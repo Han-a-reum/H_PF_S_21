@@ -58,7 +58,7 @@ body {
   background-image:url("img/bn_0_1_1.png");
   background-position:center;
   background-repeat:no-repeat;
-  background-size: 1830px 990px;
+  background-size: 1830px 1000px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -75,6 +75,12 @@ body {
   -webkit-animation:blink 1.5s ease-in-out infinite alternate; 
   -moz-animation:blink 1.5s ease-in-out infinite alternate;
   animation:blink 1.5s ease-in-out infinite alternate; 
+}
+
+.blinking_2{ 
+  -webkit-animation:blink 2s ease-in-out infinite alternate; 
+  -moz-animation:blink 2s ease-in-out infinite alternate;
+  animation:blink 2s ease-in-out infinite alternate; 
 }
 
 @-webkit-keyframes blink{ 
