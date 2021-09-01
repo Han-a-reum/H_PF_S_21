@@ -44,17 +44,25 @@ body {
   cursor: url(img/cursor.png), auto !important;
 }
 
+.cursor-pointer {
+  cursor: url(img/cursor_2.png), auto !important;
+}
+
 .loading-box {
   position:fixed;
   top:0;
   left:0;
   width:100%;
   height:100%;
-  background-image:url("img/bn_1_1_1.png");
+  background-color:#26272B;
+  background-image:url("img/bn_0_1_1.png");
   background-position:center;
   background-repeat:no-repeat;
   background-size: 1830px 990px;
-  z-index:10;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
   transition:opacity 0.3s, visibility 0.3s;
 }
 

@@ -21,8 +21,8 @@
 <body>
 <div class="site-wrap">
   <header class="top-bar">
-    <a href="index.ssg.php"><img src="resource/img/menu_1.svg" alt=""></a>
-    <a href="aboutMe.ssg.php"><img src="resource/img/menu_2.svg" alt=""></a>
-    <a href="pf.ssg.php"><img src="resource/img/menu_3.svg" alt=""></a>
-    <a href="etc.ssg.php"><img src="resource/img/menu_4.svg" alt=""></a>
+    <a href="index.ssg.php"><img class="cursor-pointer" src="resource/img/menu_1<?=$pageCode == 'home' ? '_active' : ''?>.svg" alt=""></a>
+    <a href="aboutMe.ssg.php"><img class="cursor-pointer" src="resource/img/menu_2<?=$pageCode == 'aboutMe' ? '_active' : ''?>.svg" alt=""></a>
+    <a href="pf.ssg.php"><img class="cursor-pointer" src="resource/img/menu_3<?=$pageCode == 'pf' ? '_active' : ''?>.svg" alt=""></a>
+    <a href="etc.ssg.php"><img class="cursor-pointer" src="resource/img/menu_4<?=$pageCode == 'etc' ? '_active' : ''?>.svg" alt=""></a>
   </header>

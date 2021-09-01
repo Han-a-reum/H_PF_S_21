@@ -1,4 +1,8 @@
 <?php
+$pageCode = "etc";
+?>
+
+<?php
 require_once "head.php";
 ?>
 
@@ -6,7 +10,7 @@ require_once "head.php";
   <img src="resource/img/bn_4_2.png" alt="">
 </div>
 
-<div class="bn_4_2_1 btn-1">
+<div class="bn_4_2_1 btn-1 cursor-pointer">
   <img src="resource/img/bn_4_2_1.png" alt="">
 </div>
 

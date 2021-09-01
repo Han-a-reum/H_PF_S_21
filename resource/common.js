@@ -20,16 +20,16 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
   },
 });
 
-function change() {
+function change1() {
   $(".btn-1").click(function() {
     $(".img-2").addClass("show");
   });
 }
 
-change();
+change1();

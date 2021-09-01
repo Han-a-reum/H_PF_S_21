@@ -1,4 +1,8 @@
 <?php
+$pageCode = "aboutMe";
+?>
+
+<?php
 require_once "head.php";
 ?>
 

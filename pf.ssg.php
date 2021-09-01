@@ -1,3 +1,7 @@
+<?php
+$pageCode = "pf";
+?>
+
 <?php require_once "head.php";?>
 
 <div class="about_1">
@@ -26,6 +30,7 @@
       <div class="swiper-slide">Slide 5</div>
       <div class="swiper-slide">Slide 6</div>
     </div>
+    <div class="swiper-pagination"></div>
   </div> 
 </div>
 
