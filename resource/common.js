@@ -25,3 +25,11 @@ var swiper = new Swiper(".mySwiper", {
     disableOnInteraction: false,
   },
 });
+
+function change() {
+  $(".btn-1").click(function() {
+    $(".img-2").addClass("show");
+  });
+}
+
+change();
