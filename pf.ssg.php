@@ -5,7 +5,7 @@ $pageCode = "pf";
 <?php require_once "head.php";?>
 
 <div class="about_1">
-<img src="resource/img/bn_3_1.png" alt="">
+  <img src="resource/img/bn_3_1.png" alt="">
 </div>
 
 <div class="pf_1_1">
