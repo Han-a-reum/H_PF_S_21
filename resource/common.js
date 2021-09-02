@@ -18,6 +18,12 @@ function change() {
 
 change();
 
+// 어바웃 로딩
+setTimeout(function() {
+  let $grid = $('.img-box-2').masonry();
+  $('.loading-box-2').addClass('hide');
+}, 4000);
+
 // 포폴 슬라이드
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
