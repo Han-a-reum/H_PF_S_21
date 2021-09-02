@@ -25,4 +25,5 @@
     <a href="aboutMe.ssg.php"><img class="cursor-pointer" src="resource/img/menu_2<?=$pageCode == 'aboutMe' ? '_active' : ''?>.svg" alt=""></a>
     <a href="pf.ssg.php"><img class="cursor-pointer" src="resource/img/menu_3<?=$pageCode == 'pf' ? '_active' : ''?>.svg" alt=""></a>
     <a href="etc.ssg.php"><img class="cursor-pointer" src="resource/img/menu_4<?=$pageCode == 'etc' ? '_active' : ''?>.svg" alt=""></a>
+    <a href="email.ssg.php"></a> 
   </header>
