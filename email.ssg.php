@@ -21,6 +21,16 @@ require_once "head.php";
   </form>
 </div>
 
+<div class="email_icon">
+  <div class="email_icon_1 cursor-pointer"><a href="https://koooongboo.tistory.com/" target="_blank"><img src="resource/img/bn_5_1_2.png" alt=""></a></div>
+  <div class="email_icon_1 cursor-pointer"><a href="https://www.youtube.com/channel/UCA28z5nhhsw8xKKNJHnOkOw/videos" target="_blank"><img src="resource/img/bn_5_1_3.png" alt=""></a></div>
+  <div class="email_icon_1 cursor-pointer"><a href="https://wiken.io/b/244" target="_blank"><img src="resource/img/bn_5_1_4.png" alt=""></a></div>
+</div>
+
+<div class="email_bn_1_1_7 chatbox">
+  <img src="resource/img/bn_1_1_7.png" alt="">
+</div>
+
 <?php
 require_once "foot.php";
 ?>

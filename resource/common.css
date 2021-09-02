@@ -443,8 +443,35 @@ button {
 
 .email_1{
     position: absolute;
-    top:calc(50% - 100px);
-    left:calc(50% - 50px);
-    width: 550px;
-    height: 480px;
+    top:calc(50% - 120px);
+    left:calc(50% - 130px);
+    width: 650px;
+    height: 580px;
+}
+
+.email_icon{
+  width: 300px;
+  position: absolute;
+  top:calc(50% - 250px);
+  left:calc(50% - 150px);
+  display: flex;
+  flex-direction: row;
+}
+.email_icon > .email_icon_1{
+  width: 100px;
+}
+
+.email_bn_1_1_7{
+  position: absolute;
+  top:calc(50% - 220px);
+  left:calc(50% - 530px);
+  width: 236px;
+  height: 212px;
+}
+
+.chatbox {animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;}
+        
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 20px;}
 }
