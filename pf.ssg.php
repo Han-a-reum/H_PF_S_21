@@ -14,20 +14,20 @@ $pageCode = "pf";
       <!-- 개인 사이트 -->
       <div class="swiper-slide swiper-slide_1">
       <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'" onmouseout="this.src='resource/img/bn_3_2_1.png'">
-        <a href="#"><img class="bn_3_1_2" src="resource/img/bn_3_1_2.svg" alt=""></a>
+        <a href="#"><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_2.svg" alt=""></a>
       </div>
       <!-- 리뉴얼 사이트 -->
       <div class="swiper-slide swiper-slide_1">
       <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'" onmouseout="this.src='resource/img/bn_3_2_1.png'">
         <div class="bn_3_1_2_2">
-          <a href="#"><img class="bn_3_1_2_1" src="resource/img/bn_3_1_2.svg" alt=""></a>
-          <a href="#"><img class="bn_3_1_3" src="resource/img/bn_3_1_3.svg" alt=""></a>
+          <a href="#"><img class="bn_3_1_2_1 cursor-pointer" src="resource/img/bn_3_1_2.svg" alt=""></a>
+          <a href="#"><img class="bn_3_1_3 cursor-pointer" src="resource/img/bn_3_1_3.svg" alt=""></a>
         </div>
       </div>
       <!-- 데일리 루틴 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'" onmouseout="this.src='resource/img/bn_3_2_1.png'">
-        <a href="#"><img class="bn_3_1_2" src="resource/img/bn_3_1_2.svg" alt=""></a>
+        <a href="#"><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_2.svg" alt=""></a>
       </div>
       <div class="swiper-slide">Slide 4</div>
       <div class="swiper-slide">Slide 5</div>
