@@ -178,6 +178,14 @@ body {
   height: 475px;
 }
 
+.bn_1_1_7{
+  position: absolute;
+  top:calc(50% - 10px);
+  left:calc(50% + 320px);
+  width: 109px;
+  height: 104px;
+}
+
 /* 메인 라이트하우스 */
 .bn_1_2_0{
   position: absolute;

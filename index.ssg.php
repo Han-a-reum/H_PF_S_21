@@ -38,6 +38,7 @@ $pageCode = "home";
     </div>
 
     <div class="bn_1_1_6"><img src="resource/img/bn_1_1_6.png" alt=""></div>
+    <div class="bn_1_1_7"><img src="resource/img/bn_1_1_7.png" alt=""></div>
 </section>
 
 <?php require_once "foot.php"; ?> 
