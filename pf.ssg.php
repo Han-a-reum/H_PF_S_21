@@ -27,7 +27,7 @@ $pageCode = "pf";
       <!-- 데일리 루틴 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'" onmouseout="this.src='resource/img/bn_3_2_1.png'">
-        <a href="#"><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_2.svg" alt=""></a>
+        <a href="https://han-a-reum.github.io/2021-DR-HAR/pf/work1/" target='_blank'><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_2.svg" alt=""></a>
       </div>
       <div class="swiper-slide">Slide 4</div>
       <div class="swiper-slide">Slide 5</div>
