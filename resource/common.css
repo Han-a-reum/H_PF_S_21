@@ -150,15 +150,15 @@ body {
 .top-bar {
   position: absolute;
   width: 80px;
-  top:calc(50% - 320px);
+  top:calc(50% - 308px);
   left:calc(50% + 688px);
   height:650px;
 }
 
 .top-bar > a > img{
-  margin: 12px auto 61px auto;
-  width: 75px;
-  height: 100px;
+  margin: 12px auto 86px auto;
+  width: 76px;
+  height: 75px;
 }
 
 /* 메인 다크하우스 */
