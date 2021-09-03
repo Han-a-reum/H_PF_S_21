@@ -256,7 +256,7 @@ body {
   width:100%;
   height:100%;
   z-index:10;
-  transition:opacity 0.3s, visibility 0.3s;
+  transition:opacity 3s, visibility 3s;
 }
 
 .loading-box-2.hide {
