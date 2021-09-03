@@ -1,0 +1,501 @@
+/* 폰트불러오기 영어:teko 한글:이사만루체 */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'GongGothicLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GongGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 영어:teko(구글폰트) 한글:이사만루체(눈누) */
+
+html, body {
+  overflow:hidden;
+  font-family: 'Teko', 'GongGothicLight', 'GongGothicMedium', 'GongGothicBold', sans-serif;
+}
+
+
+img {
+  display: block;
+}
+
+body {
+  min-height:100vh;
+  background-image:url(img/bg_1_0.jpg);
+  background-color: #26272B;
+  background-size:1920px;
+  background-position:center;
+  background-repeat:no-repeat;
+  color: white;
+}
+
+/* 커서꾸미기 */
+body {
+  cursor: url(img/cursor.png), auto !important;
+}
+
+.cursor-pointer {
+  cursor: url(img/cursor_2.png), auto !important;
+}
+/* 커서꾸미기 끝 */
+
+/* 로딩 화면 박스 */
+.loading-box {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#26272B;
+  background-image:url("img/bn_0_1_1.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: 1830px 1000px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
+  transition:opacity 0.3s, visibility 0.3s;
+}
+
+.loading-box.hide {
+  opacity:0;
+  visibility:hidden;
+}
+/* 로딩 화면 박스 끝 */
+
+/* 로딩중 글씨 */
+.letter-holder {
+  padding: 16px;
+}
+
+.letter {
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.load-6 .letter {
+  animation-name: loadingF;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.l-1 {
+  animation-delay: 0.48s;
+}
+.l-2 {
+  animation-delay: 0.6s;
+}
+.l-3 {
+  animation-delay: 0.72s;
+}
+.l-4 {
+  animation-delay: 0.84s;
+}
+.l-5 {
+  animation-delay: 0.96s;
+}
+.l-6 {
+  animation-delay: 1.08s;
+}
+.l-7 {
+  animation-delay: 1.2s;
+}
+
+@keyframes loadingF {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* 로딩중 글씨 끝 */
+
+/* 스탠드 반짝반짝 */
+.blinking{ 
+  -webkit-animation:blink 1s ease-in-out infinite alternate; 
+  -moz-animation:blink 1s ease-in-out infinite alternate;
+  animation:blink 1s ease-in-out infinite alternate; 
+}
+
+@-webkit-keyframes blink{ 
+  0% {opacity:0;} 
+  100% {opacity:1;} 
+}
+
+@-moz-keyframes blink{
+  0% {opacity:0;} 
+  100% {opacity:1;}
+} 
+
+@keyframes blink{ 
+  0% {opacity:0;} 
+  100% {opacity:1;} 
+}
+/* 스탠드 반짝반짝 끝 */
+
+/* 메뉴 */
+.top-bar {
+  position: absolute;
+  width: 80px;
+  top:calc(50% - 308px);
+  left:calc(50% + 688px);
+  height:650px;
+}
+
+.top-bar > a > img{
+  margin: 12px auto 86px auto;
+  width: 76px;
+  height: 75px;
+}
+/* 메뉴 끝 */
+
+/* 메인 다크하우스 */
+.bn_1_1_0{
+  position: absolute;
+  top:calc(50% - 500px);
+  left:calc(50% - 440px);
+  width: 885px;
+  height: 1022px;
+}
+
+/* 메인 우체통 */
+.bn_1_1_6{
+  position: absolute;
+  top:calc(50% - 10px);
+  left:calc(50% + 300px);
+  width: 384px;
+  height: 475px;
+}
+
+/* 메인 편지봉투 */
+.bn_1_1_7{
+  position: absolute;
+  top:calc(50% - 10px);
+  left:calc(50% + 320px);
+  width: 109px;
+  height: 104px;
+}
+
+/* 메인 라이트하우스 */
+.bn_1_2_0{
+  position: absolute;
+  top:calc(50% - 500px);
+  left:calc(50% - 440px);
+  width: 885px;
+  height: 1022px;
+}
+
+/* 스탠드 불빛 */
+.bn_1_1_2{
+  position: absolute;
+  top:calc(50% - 130px);
+  left:calc(50% - 90px);
+}
+
+/* 다크 전등 스위치 */
+.bn_buttom_1 {
+  position: absolute;
+  width: 76px;
+  height: 75px;
+  z-index: 1;
+  top:calc(50% - 70px);
+  left:calc(50% + 280px);
+}
+
+/* 라이트 전등 스위치 */
+.bn_buttom_2 {
+  position: absolute;
+  width: 76px;
+  height: 75px;
+  z-index: 2;
+  top:calc(50% - 70px);
+  left:calc(50% + 280px);
+}
+
+/* 묶음 라이트 하우스 */
+.box_1_2 {
+  opacity:0;
+  visibility:hidden;
+}
+
+.box_1_2.show {
+  opacity:1;
+  visibility:visible;
+}
+/* 묶음 라이트 하우스 끝 */
+
+/* 어바웃 배경 */
+.about_1 {
+  position: absolute;
+  top:calc(50% - 535px);
+  left:calc(50% - 750px);
+  width: 1450px;
+  height: 1080px;
+}
+
+/* 어바웃 로딩이미지 */
+.loading-box-2 {
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:10;
+  transition:opacity 0.3s, visibility 0.3s;
+}
+
+.loading-box-2.hide {
+  opacity:0;
+  visibility:hidden;
+}
+/* 어바웃 로딩이미지 끝 */
+
+/* 기타 티켓 이미지 */
+.about_1_4 {
+  position: absolute;
+  top:calc(50% - 535px);
+  left:calc(50% - 750px);
+  width: 1450px;
+  height: 1080px;
+}
+
+/* 기타 전시관 이미지 */
+.about_1_5 {
+  position: absolute;
+  top:calc(50% - 535px);
+  left:calc(50% - 750px);
+  width: 1450px;
+  height: 1080px;
+}
+
+/* 기타 티켓 버튼 */
+.btn-1 {
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+/* 전시관 이미지 */
+.img-2 {
+  display:none;
+}
+
+.img-2.show {
+  display:block;
+}
+/* 전시관 이미지 끝 */
+
+/* 어바웃 사진 */
+.about_2{
+  position: absolute;
+  width: 423px;
+  height: 545px;
+  top:calc(50% - 458px);
+  left:calc(50% - 610px);
+}
+
+/* 어바웃 카톡 */
+.about_3{
+  position: absolute;
+  width: 426px;
+  height: 644px;
+  top:calc(50% - 270px);
+  left:calc(50% + 133px);
+}
+
+/* 포폴 전체 묶음 */
+.pf_1_1{
+  position: absolute;
+  height: 900px;
+  width:1250px;
+  top:calc(50% - 440px);
+  left:calc(50% - 645px);
+  }
+
+/* 포폴 하나 묶음 */
+.swiper-slide_1{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 포폴 개인 사이트 */
+.bn_3_2_1{
+  width: 412px;
+  height: 582px;
+}
+
+/* 포폴 데일 리루틴 */
+.bn_3_2_2{
+  width: 412px;
+  height: 582px;
+}
+
+/* 포폴 디자인버튼 */
+.bn_3_1_2{
+  width: 412px;
+  height: 72px;
+}
+
+/* 포폴 프로세스 버튼 */
+.bn_3_1_2_2{
+  width: 412px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* 메인 디자인,프로세스버튼 */
+.bn_3_1_2_1, .bn_3_1_3{
+  width: 200px;
+  height: 72px;  
+}
+
+/* 기타 보러가기버튼 */
+.bn_4_2_1{
+  cursor: pointer;
+  position: absolute;
+  height: 329px;
+  width:173px;
+  top:calc(50% + 300px);
+  left:calc(50% - 120px);
+}
+
+/* 포폴 슬라이드 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+}
+/* 포폴 슬라이드 끝 */
+
+/* 이메일 보내는 곳 */
+.bn_5_1 {
+  position: absolute;
+  top:calc(50% - 535px);
+  left:calc(50% - 650px);
+  width: 1450px;
+  height: 1080px;
+}
+
+/* 이메일 엑스버튼 */
+.bn_5_1_1 {
+  position: absolute;
+  top:calc(50% - 455px);
+  left:calc(50% + 450px);
+}
+
+/* 메일 보내기 */
+form * {
+  font-size:1.5rem;
+  font-weight: lighter;
+}
+
+input,
+textarea {
+  border:1px solid rgb(255, 255, 255);
+  padding:10px;
+  background-color: inherit;
+  width:100%;
+  margin-bottom:20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  border:1px solid rgb(255, 255, 255);
+  overflow: hidden;
+  resize: none;
+  width:100%;
+  height:400px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  outline:0;
+  background-color:inherit;
+  padding:20px;
+  width:100%;
+}
+
+.email_1{
+    position: absolute;
+    top:calc(50% - 120px);
+    left:calc(50% - 130px);
+    width: 650px;
+    height: 580px;
+}
+/* 메일 보내기 끝 */
+
+/* 메일 공부 아이콘 */
+.email_icon{
+  width: 300px;
+  position: absolute;
+  top:calc(50% - 250px);
+  left:calc(50% - 150px);
+  display: flex;
+  flex-direction: row;
+}
+
+.email_icon > .email_icon_1{
+  width: 100px;
+}
+/* 메일 공부 아이콘 끝 */
+
+/* 메일 편지봉투 */
+.email_bn_1_1_7{
+  position: absolute;
+  top:calc(50% - 220px);
+  left:calc(50% - 530px);
+  width: 236px;
+  height: 212px;
+}
+
+/* 이메일 편지봉투 위아래움직이는 효과 */
+.chatbox {animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;}
+        
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 20px;}
+}
