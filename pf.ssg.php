@@ -29,9 +29,9 @@ $pageCode = "pf";
         <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'" onmouseout="this.src='resource/img/bn_3_2_1.png'">
         <a href="https://han-a-reum.github.io/2021-DR-HAR/pf/work1/" target='_blank'><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" alt=""></a>
       </div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">준비중</div>
+      <div class="swiper-slide">준비중</div>
+      <div class="swiper-slide">준비중</div>
     </div>
     <div class="swiper-pagination"></div>
   </div> 
