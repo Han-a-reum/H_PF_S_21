@@ -22,7 +22,7 @@ require_once "head.php";
 
 <div class="about_3">
   <!-- 톡로딩 -->
-  <div class="loading-box-2">
+  <div class="loading-box-3">
     <img src="resource/img/bn_2_1.png" alt="">
   </div>
   <!-- 톡내용 -->
