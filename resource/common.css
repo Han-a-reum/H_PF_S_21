@@ -28,7 +28,6 @@ html, body {
   font-family: 'Teko', 'GongGothicLight', 'GongGothicMedium', 'GongGothicBold', sans-serif;
 }
 
-
 img {
   display: block;
 }
@@ -53,6 +52,7 @@ body {
 }
 /* 커서꾸미기 끝 */
 
+/* index */
 /* 로딩 화면 박스 */
 .loading-box {
   position:fixed;
@@ -241,6 +241,7 @@ body {
 }
 /* 묶음 라이트 하우스 끝 */
 
+/* aboutMe */
 /* 어바웃 배경 */
 .about_1 {
   position: absolute;
@@ -280,6 +281,112 @@ body {
 }
 /* 어바웃 로딩이미지 끝 */
 
+/* 어바웃 사진 */
+.about_2{
+  position: absolute;
+  width: 423px;
+  height: 545px;
+  top:calc(50% - 458px);
+  left:calc(50% - 610px);
+}
+
+/* 어바웃 카톡 */
+.about_3{
+  position: absolute;
+  width: 426px;
+  height: 644px;
+  top:calc(50% - 270px);
+  left:calc(50% + 133px);
+}
+
+/* pf */
+/* 포폴 전체 묶음 */
+.pf_1_1{
+  position: absolute;
+  height: 900px;
+  width:1250px;
+  top:calc(50% - 440px);
+  left:calc(50% - 645px);
+  }
+
+/* 포폴 하나 묶음 */
+.swiper-slide_1{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 포폴 개인 사이트 */
+.bn_3_2_1{
+  width: 412px;
+  height: 582px;
+}
+
+/* 포폴 데일리루틴 */
+.bn_3_2_2{
+  width: 412px;
+  height: 582px;
+}
+
+/* 포폴 디자인버튼 */
+.bn_3_1_2{
+  width: 412px;
+  height: 72px;
+}
+
+/* 포폴 프로세스 버튼 */
+.bn_3_1_2_2{
+  width: 412px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* 메인 디자인,프로세스버튼 */
+.bn_3_1_2_1, .bn_3_1_3{
+  width: 200px;
+  height: 72px;  
+}
+
+/* 포폴 슬라이드 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+}
+/* 포폴 슬라이드 끝 */
+
+/* etc */
+/* 기타 보러가기버튼 */
+.bn_4_2_1{
+  cursor: pointer;
+  position: absolute;
+  height: 329px;
+  width:173px;
+  top:calc(50% + 300px);
+  left:calc(50% - 120px);
+}
+
 /* 기타 티켓 이미지 */
 .about_1_4 {
   position: absolute;
@@ -316,110 +423,7 @@ body {
 }
 /* 전시관 이미지 끝 */
 
-/* 어바웃 사진 */
-.about_2{
-  position: absolute;
-  width: 423px;
-  height: 545px;
-  top:calc(50% - 458px);
-  left:calc(50% - 610px);
-}
-
-/* 어바웃 카톡 */
-.about_3{
-  position: absolute;
-  width: 426px;
-  height: 644px;
-  top:calc(50% - 270px);
-  left:calc(50% + 133px);
-}
-
-/* 포폴 전체 묶음 */
-.pf_1_1{
-  position: absolute;
-  height: 900px;
-  width:1250px;
-  top:calc(50% - 440px);
-  left:calc(50% - 645px);
-  }
-
-/* 포폴 하나 묶음 */
-.swiper-slide_1{
-  display: flex;
-  flex-direction: column;
-}
-
-/* 포폴 개인 사이트 */
-.bn_3_2_1{
-  width: 412px;
-  height: 582px;
-}
-
-/* 포폴 데일 리루틴 */
-.bn_3_2_2{
-  width: 412px;
-  height: 582px;
-}
-
-/* 포폴 디자인버튼 */
-.bn_3_1_2{
-  width: 412px;
-  height: 72px;
-}
-
-/* 포폴 프로세스 버튼 */
-.bn_3_1_2_2{
-  width: 412px;
-  height: 72px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-/* 메인 디자인,프로세스버튼 */
-.bn_3_1_2_1, .bn_3_1_3{
-  width: 200px;
-  height: 72px;  
-}
-
-/* 기타 보러가기버튼 */
-.bn_4_2_1{
-  cursor: pointer;
-  position: absolute;
-  height: 329px;
-  width:173px;
-  top:calc(50% + 300px);
-  left:calc(50% - 120px);
-}
-
-/* 포폴 슬라이드 */
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-}
-/* 포폴 슬라이드 끝 */
-
+/* email */
 /* 이메일 보내는 곳 */
 .bn_5_1 {
   position: absolute;
@@ -508,7 +512,7 @@ button {
 }
 
 /* 이메일 편지봉투 위아래움직이는 효과 */
-.chatbox {animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;}
+.chatbox {animation: motion 0.7s linear 0s infinite alternate; margin-top: 0;}
         
 @keyframes motion {
 	0% {margin-top: 0px;}
