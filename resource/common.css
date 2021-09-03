@@ -1,3 +1,4 @@
+/* 폰트불러오기 영어:teko 한글:이사만루체 */
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
 @font-face {
@@ -20,11 +21,13 @@
     font-weight: normal;
     font-style: normal;
 }
+/* 영어:teko(구글폰트) 한글:이사만루체(눈누) */
 
 html, body {
   overflow:hidden;
   font-family: 'Teko', 'GongGothicLight', 'GongGothicMedium', 'GongGothicBold', sans-serif;
 }
+
 
 img {
   display: block;
@@ -40,6 +43,7 @@ body {
   color: white;
 }
 
+/* 커서꾸미기 */
 body {
   cursor: url(img/cursor.png), auto !important;
 }
@@ -47,6 +51,7 @@ body {
 .cursor-pointer {
   cursor: url(img/cursor_2.png), auto !important;
 }
+/* 커서꾸미기 끝 */
 
 /* 로딩 화면 박스 */
 .loading-box {
@@ -71,7 +76,9 @@ body {
   opacity:0;
   visibility:hidden;
 }
+/* 로딩 화면 박스 끝 */
 
+/* 로딩중 글씨 */
 .letter-holder {
   padding: 16px;
 }
@@ -79,11 +86,6 @@ body {
 .letter {
   font-size: 1.5rem;
   color: #777;
-}
-
-.bubble-2 {
-  top: auto;
-  bottom: 0;
 }
 
 .load-6 .letter {
@@ -123,6 +125,7 @@ body {
     opacity: 1;
   }
 }
+/* 로딩중 글씨 끝 */
 
 /* 스탠드 반짝반짝 */
 .blinking{ 
@@ -145,6 +148,7 @@ body {
   0% {opacity:0;} 
   100% {opacity:1;} 
 }
+/* 스탠드 반짝반짝 끝 */
 
 /* 메뉴 */
 .top-bar {
@@ -160,6 +164,7 @@ body {
   width: 76px;
   height: 75px;
 }
+/* 메뉴 끝 */
 
 /* 메인 다크하우스 */
 .bn_1_1_0{
@@ -170,6 +175,7 @@ body {
   height: 1022px;
 }
 
+/* 메인 우체통 */
 .bn_1_1_6{
   position: absolute;
   top:calc(50% - 10px);
@@ -178,6 +184,7 @@ body {
   height: 475px;
 }
 
+/* 메인 편지봉투 */
 .bn_1_1_7{
   position: absolute;
   top:calc(50% - 10px);
@@ -232,8 +239,9 @@ body {
   opacity:1;
   visibility:visible;
 }
+/* 묶음 라이트 하우스 끝 */
 
-/* 어바웃페이지 배경 */
+/* 어바웃 배경 */
 .about_1 {
   position: absolute;
   top:calc(50% - 535px);
@@ -242,6 +250,7 @@ body {
   height: 1080px;
 }
 
+/* 어바웃 로딩이미지 */
 .loading-box-2 {
   position:absolute;
   width:100%;
@@ -254,6 +263,7 @@ body {
   opacity:0;
   visibility:hidden;
 }
+/* 어바웃 로딩이미지 끝 */
 
 /* 기타 티켓 이미지 */
 .about_1_4 {
@@ -289,6 +299,7 @@ body {
 .img-2.show {
   display:block;
 }
+/* 전시관 이미지 끝 */
 
 /* 어바웃 사진 */
 .about_2{
@@ -323,11 +334,13 @@ body {
   flex-direction: column;
 }
 
+/* 포폴 개인 사이트 */
 .bn_3_2_1{
   width: 412px;
   height: 582px;
 }
 
+/* 포폴 데일 리루틴 */
 .bn_3_2_2{
   width: 412px;
   height: 582px;
@@ -348,11 +361,13 @@ body {
   justify-content: center;
 }
 
+/* 메인 디자인,프로세스버튼 */
 .bn_3_1_2_1, .bn_3_1_3{
   width: 200px;
   height: 72px;  
 }
 
+/* 기타 보러가기버튼 */
 .bn_4_2_1{
   cursor: pointer;
   position: absolute;
@@ -388,6 +403,7 @@ body {
 .swiper-slide img {
   display: block;
 }
+/* 포폴 슬라이드 끝 */
 
 /* 이메일 보내는 곳 */
 .bn_5_1 {
@@ -398,12 +414,14 @@ body {
   height: 1080px;
 }
 
+/* 이메일 엑스버튼 */
 .bn_5_1_1 {
   position: absolute;
   top:calc(50% - 455px);
   left:calc(50% + 450px);
 }
 
+/* 메일 보내기 */
 form * {
   font-size:1.5rem;
   font-weight: lighter;
@@ -448,7 +466,9 @@ button {
     width: 650px;
     height: 580px;
 }
+/* 메일 보내기 끝 */
 
+/* 메일 공부 아이콘 */
 .email_icon{
   width: 300px;
   position: absolute;
@@ -457,10 +477,13 @@ button {
   display: flex;
   flex-direction: row;
 }
+
 .email_icon > .email_icon_1{
   width: 100px;
 }
+/* 메일 공부 아이콘 끝 */
 
+/* 메일 편지봉투 */
 .email_bn_1_1_7{
   position: absolute;
   top:calc(50% - 220px);
@@ -469,6 +492,7 @@ button {
   height: 212px;
 }
 
+/* 이메일 편지봉투 위아래움직이는 효과 */
 .chatbox {animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;}
         
 @keyframes motion {

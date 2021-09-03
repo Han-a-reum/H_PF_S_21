@@ -4,10 +4,12 @@ $pageCode = "pf";
 
 <?php require_once "head.php";?>
 
+<!-- 포폴배경 -->
 <div class="about_1">
   <img src="resource/img/bn_3_1.png" alt="">
 </div>
 
+<!-- 포폴 슬라이드 -->
 <div class="pf_1_1">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -33,6 +35,7 @@ $pageCode = "pf";
       <div class="swiper-slide">준비중</div>
       <div class="swiper-slide">준비중</div>
     </div>
+    <!-- 포폴 페이지 번호 -->
     <div class="swiper-pagination"></div>
   </div> 
 </div>

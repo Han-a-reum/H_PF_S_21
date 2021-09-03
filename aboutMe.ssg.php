@@ -6,6 +6,7 @@ $pageCode = "aboutMe";
 require_once "head.php";
 ?>
 
+<!-- 어바웃 배경 -->
 <div class="about_1"><img src="resource/img/bn_1.png" alt=""></div>
 
 <div class="about_2">
