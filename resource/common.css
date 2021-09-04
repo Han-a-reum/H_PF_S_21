@@ -129,9 +129,9 @@ body {
 
 /* 스탠드 반짝반짝 */
 .blinking{ 
-  -webkit-animation:blink 1s ease-in-out infinite alternate; 
-  -moz-animation:blink 1s ease-in-out infinite alternate;
-  animation:blink 1s ease-in-out infinite alternate; 
+  -webkit-animation:blink 0.7s ease-in-out infinite alternate; 
+  -moz-animation:blink 0.7s ease-in-out infinite alternate;
+  animation:blink 0.7s ease-in-out infinite alternate; 
 }
 
 @-webkit-keyframes blink{ 
@@ -415,6 +415,22 @@ body {
   position: absolute;
   top:calc(50% - 200px);
   left:calc(50% - 140px);
+}
+
+.swing {
+  animation: swing ease-in-out 0.7s infinite alternate;
+}
+@keyframes swing {
+  0% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.swing_1 {
+  animation: swing ease-in-out 1s infinite alternate;
+}
+@keyframes swing_1 {
+  0% { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
 }
 
 .text_5{

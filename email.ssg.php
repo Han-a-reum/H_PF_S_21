@@ -17,7 +17,7 @@ require_once "head.php";
 <div class="email_1">
   <form target="_blank" action="https://formspree.io/f/mrgrrpjr" onsubmit="sendEmailForm(this); return false;" method="POST">
     <div><input autofocus type="email" name="_replyto" placeholder="이메일 주소를 입력해주세요"></div>
-    <div><textarea name="message" placeholder="자기소개와 내용을 입력하세요"></textarea></div>
+    <div><textarea name="message" placeholder="자기소개는 간단히, 내용을 입력해주세요"></textarea></div>
     <div><button class="cursor-pointer" name="submit1" type="submit">보내기</button></div>
   </form>
 </div>
