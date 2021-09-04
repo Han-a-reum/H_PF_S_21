@@ -377,16 +377,6 @@ body {
 /* 포폴 슬라이드 끝 */
 
 /* etc */
-/* 기타 보러가기버튼 */
-.bn_4_2_1{
-  cursor: pointer;
-  position: absolute;
-  height: 329px;
-  width:173px;
-  top:calc(50% + 300px);
-  left:calc(50% - 120px);
-}
-
 /* 기타 티켓 이미지 */
 .about_1_4 {
   position: absolute;
@@ -405,12 +395,13 @@ body {
   height: 1080px;
 }
 
-/* 기타 티켓 버튼 */
+/* 기타 보러가기버튼 */
 .btn-1 {
-  cursor:pointer;
-  position:absolute;
-  top:0;
-  left:0;
+  position: absolute;
+  height: 329px;
+  width:173px;
+  top:calc(50% + 250px);
+  left:calc(50% - 120px);
 }
 
 /* 전시관 이미지 */
