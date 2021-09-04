@@ -19,7 +19,7 @@ change();
 // 어바웃 로딩 컬러사진
 setTimeout(function () {
   $('.loading-box-2').addClass('hide');
-}, 2500);
+}, 3500);
 
 // 어바웃 로딩 톡로딩
 setTimeout(function () {

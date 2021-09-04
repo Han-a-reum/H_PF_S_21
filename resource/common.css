@@ -69,7 +69,7 @@ body {
   align-items:center;
   justify-content:center;
   z-index:1000;
-  transition:opacity 2s, visibility 2s;
+  transition:opacity 1.8s, visibility 1.8s;
 }
 
 .loading-box.hide {
@@ -386,6 +386,15 @@ body {
   height: 1080px;
 }
 
+/* 기타 보러가기버튼 */
+.btn-1 {
+  position: absolute;
+  height: 329px;
+  width:173px;
+  top:calc(50% + 250px);
+  left:calc(50% - 120px);
+}
+
 /* 기타 전시관 이미지 */
 .about_1_5 {
   position: absolute;
@@ -395,13 +404,21 @@ body {
   height: 1080px;
 }
 
-/* 기타 보러가기버튼 */
-.btn-1 {
+/* 기타 전시관 이미지 */
+.bn_4_1_1 {
   position: absolute;
-  height: 329px;
-  width:173px;
-  top:calc(50% + 250px);
-  left:calc(50% - 120px);
+  top:calc(50% - 390px);
+  left:calc(50% - 165px);
+  width: 663px;
+  height: 689px;
+}
+
+.bn_4_1_2 {
+  position: absolute;
+  top:calc(50% - 250px);
+  left:calc(50% - 360px);
+  width: 617px;
+  height: 409px;
 }
 
 /* 전시관 이미지 */
