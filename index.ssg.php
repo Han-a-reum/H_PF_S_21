@@ -36,7 +36,7 @@ $pageCode = "home";
     <!-- 우체통 이미지 -->
     <div class="bn_1_1_6"><img src="resource/img/bn_1_1_6.png" alt=""></div>
     <!-- 편지봉투 -->
-    <div class="bn_1_1_7 cursor-pointer"><a href="email.ssg.php"><img src="resource/img/bn_1_1_7.png" alt=""></div></a>
+    <div class="bn_1_1_7"><a href="email.ssg.php"><img class="cursor-pointer" src="resource/img/bn_1_1_7.png" alt=""></div></a>
 </section>
 
 <?php require_once "foot.php"; ?> 

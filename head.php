@@ -16,7 +16,8 @@
 <!-- 사이트 공통 CSS -->
 <link rel="stylesheet" href="resource/common.css">
 </head>
-<body>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
 <div class="site-wrap">
   <header class="top-bar">
     <a href="index.ssg.php"><img class="cursor-pointer" src="resource/img/menu_1<?=$pageCode == 'home' ? '_active' : ''?>.png" alt=""></a>
