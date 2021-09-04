@@ -34,7 +34,7 @@ img {
 
 body {
   min-height:100vh;
-  background-image:url(img/bg_1_0.jpg);
+  background-image:url(img/bg_1_0.png);
   background-color: #26272B;
   background-size:1920px;
   background-position:center;
@@ -64,7 +64,7 @@ body {
   background-image:url("img/bn_0_1_1.png");
   background-position:center;
   background-repeat:no-repeat;
-  background-size: 1830px 1000px;
+  background-size: 1720px 1017px;
   display:flex;
   align-items:center;
   justify-content:center;
