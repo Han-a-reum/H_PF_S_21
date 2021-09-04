@@ -403,13 +403,14 @@ body {
   height: 1080px;
 }
 
-/* 기타 전시관 이미지 */
+/* 호러 */
 .bn_4_1_1 {
   position: absolute;
   top:calc(50% - 140px);
   left:calc(50% + 260px);
 }
 
+/* 영화 */
 .bn_4_1_2 {
   position: absolute;
   top:calc(50% - 200px);
