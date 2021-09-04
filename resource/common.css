@@ -389,8 +389,7 @@ body {
 /* 기타 보러가기버튼 */
 .btn-1 {
   position: absolute;
-  height: 329px;
-  width:173px;
+  width: 199px;
   top:calc(50% + 250px);
   left:calc(50% - 120px);
 }
@@ -407,18 +406,22 @@ body {
 /* 기타 전시관 이미지 */
 .bn_4_1_1 {
   position: absolute;
-  top:calc(50% - 390px);
-  left:calc(50% - 165px);
-  width: 663px;
-  height: 689px;
+  top:calc(50% - 140px);
+  left:calc(50% + 260px);
 }
 
 .bn_4_1_2 {
   position: absolute;
-  top:calc(50% - 250px);
-  left:calc(50% - 360px);
-  width: 617px;
-  height: 409px;
+  top:calc(50% - 200px);
+  left:calc(50% - 140px);
+}
+
+.text_5{
+  color: rgb(70, 70, 70);
+  font-size: 1.2rem;
+  position: absolute;
+  top:calc(50% + 300px);
+  left:calc(50% + 260px);
 }
 
 /* 전시관 이미지 */
