@@ -28,14 +28,13 @@ html, body {
   font-family: 'Teko', 'GongGothicLight', 'GongGothicMedium', 'GongGothicBold', sans-serif;
 }
 
-
 img {
   display: block;
 }
 
 body {
   min-height:100vh;
-  background-image:url(img/bg_1_0.jpg);
+  background-image:url(img/bg_1_0.png);
   background-color: #26272B;
   background-size:1920px;
   background-position:center;
@@ -53,6 +52,7 @@ body {
 }
 /* 커서꾸미기 끝 */
 
+/* index */
 /* 로딩 화면 박스 */
 .loading-box {
   position:fixed;
@@ -64,12 +64,12 @@ body {
   background-image:url("img/bn_0_1_1.png");
   background-position:center;
   background-repeat:no-repeat;
-  background-size: 1830px 1000px;
+  background-size: 1720px 1017px;
   display:flex;
   align-items:center;
   justify-content:center;
   z-index:1000;
-  transition:opacity 0.3s, visibility 0.3s;
+  transition:opacity 1.8s, visibility 1.8s;
 }
 
 .loading-box.hide {
@@ -129,9 +129,9 @@ body {
 
 /* 스탠드 반짝반짝 */
 .blinking{ 
-  -webkit-animation:blink 1s ease-in-out infinite alternate; 
-  -moz-animation:blink 1s ease-in-out infinite alternate;
-  animation:blink 1s ease-in-out infinite alternate; 
+  -webkit-animation:blink 0.7s ease-in-out infinite alternate; 
+  -moz-animation:blink 0.7s ease-in-out infinite alternate;
+  animation:blink 0.7s ease-in-out infinite alternate; 
 }
 
 @-webkit-keyframes blink{ 
@@ -241,6 +241,7 @@ body {
 }
 /* 묶음 라이트 하우스 끝 */
 
+/* aboutMe */
 /* 어바웃 배경 */
 .about_1 {
   position: absolute;
@@ -251,6 +252,7 @@ body {
 }
 
 /* 어바웃 로딩이미지 */
+/* 어바웃 컬러사진 */
 .loading-box-2 {
   position:absolute;
   width:100%;
@@ -263,43 +265,21 @@ body {
   opacity:0;
   visibility:hidden;
 }
-/* 어바웃 로딩이미지 끝 */
 
-/* 기타 티켓 이미지 */
-.about_1_4 {
-  position: absolute;
-  top:calc(50% - 535px);
-  left:calc(50% - 750px);
-  width: 1450px;
-  height: 1080px;
-}
-
-/* 기타 전시관 이미지 */
-.about_1_5 {
-  position: absolute;
-  top:calc(50% - 535px);
-  left:calc(50% - 750px);
-  width: 1450px;
-  height: 1080px;
-}
-
-/* 기타 티켓 버튼 */
-.btn-1 {
-  cursor:pointer;
+/* 어바웃 톡배경 */
+.loading-box-3{
   position:absolute;
-  top:0;
-  left:0;
+  width:100%;
+  height:100%;
+  z-index:10;
+  transition:opacity 2s, visibility 2s;
 }
 
-/* 전시관 이미지 */
-.img-2 {
-  display:none;
+.loading-box-3.hide {
+  opacity:0;
+  visibility:hidden;
 }
-
-.img-2.show {
-  display:block;
-}
-/* 전시관 이미지 끝 */
+/* 어바웃 로딩이미지 끝 */
 
 /* 어바웃 사진 */
 .about_2{
@@ -319,6 +299,7 @@ body {
   left:calc(50% + 133px);
 }
 
+/* pf */
 /* 포폴 전체 묶음 */
 .pf_1_1{
   position: absolute;
@@ -340,7 +321,7 @@ body {
   height: 582px;
 }
 
-/* 포폴 데일 리루틴 */
+/* 포폴 데일리루틴 */
 .bn_3_2_2{
   width: 412px;
   height: 582px;
@@ -365,16 +346,6 @@ body {
 .bn_3_1_2_1, .bn_3_1_3{
   width: 200px;
   height: 72px;  
-}
-
-/* 기타 보러가기버튼 */
-.bn_4_2_1{
-  cursor: pointer;
-  position: absolute;
-  height: 329px;
-  width:173px;
-  top:calc(50% + 300px);
-  left:calc(50% - 120px);
 }
 
 /* 포폴 슬라이드 */
@@ -405,6 +376,82 @@ body {
 }
 /* 포폴 슬라이드 끝 */
 
+/* etc */
+/* 기타 티켓 이미지 */
+.about_1_4 {
+  position: absolute;
+  top:calc(50% - 535px);
+  left:calc(50% - 750px);
+  width: 1450px;
+  height: 1080px;
+}
+
+/* 기타 보러가기버튼 */
+.btn-1 {
+  position: absolute;
+  width: 199px;
+  top:calc(50% + 250px);
+  left:calc(50% - 120px);
+}
+
+/* 기타 전시관 이미지 */
+.about_1_5 {
+  position: absolute;
+  top:calc(50% - 535px);
+  left:calc(50% - 750px);
+  width: 1450px;
+  height: 1080px;
+}
+
+/* 호러 */
+.bn_4_1_1 {
+  position: absolute;
+  top:calc(50% - 140px);
+  left:calc(50% + 260px);
+}
+
+/* 영화 */
+.bn_4_1_2 {
+  position: absolute;
+  top:calc(50% - 200px);
+  left:calc(50% - 140px);
+}
+
+.swing {
+  animation: swing ease-in-out 0.7s infinite alternate;
+}
+@keyframes swing {
+  0% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.swing_1 {
+  animation: swing ease-in-out 1s infinite alternate;
+}
+@keyframes swing_1 {
+  0% { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
+}
+
+.text_5{
+  color: rgb(70, 70, 70);
+  font-size: 1.2rem;
+  position: absolute;
+  top:calc(50% + 300px);
+  left:calc(50% + 260px);
+}
+
+/* 전시관 이미지 */
+.img-2 {
+  display:none;
+}
+
+.img-2.show {
+  display:block;
+}
+/* 전시관 이미지 끝 */
+
+/* email */
 /* 이메일 보내는 곳 */
 .bn_5_1 {
   position: absolute;
@@ -493,7 +540,7 @@ button {
 }
 
 /* 이메일 편지봉투 위아래움직이는 효과 */
-.chatbox {animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;}
+.chatbox {animation: motion 0.7s linear 0s infinite alternate; margin-top: 0;}
         
 @keyframes motion {
 	0% {margin-top: 0px;}

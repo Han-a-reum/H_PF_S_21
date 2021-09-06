@@ -16,13 +16,15 @@ function change() {
 
 change();
 
+// 어바웃 로딩 컬러사진
 setTimeout(function () {
-  $('.loading-box-2').eq(1).addClass('hide');
-}, 2000);
+  $('.loading-box-2').addClass('hide');
+}, 3500);
 
+// 어바웃 로딩 톡로딩
 setTimeout(function () {
-  $('.loading-box-2').eq(0).addClass('hide');
-}, 2500);
+  $('.loading-box-3').addClass('hide');
+}, 2000);
 
 // 포폴 슬라이드
 var swiper = new Swiper(".mySwiper", {
