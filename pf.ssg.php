@@ -17,7 +17,7 @@ $pageCode = "pf";
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_1_4.png" onmouseover="this.src='resource/img/bn_3_1_1.png'"
           onmouseout="this.src='resource/img/bn_3_1_4.png'">
-        <a href="#"><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" alt=""></a>
+        <a href="https://han-a-reum.github.io/H_pf_ps_2021/"><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" alt=""></a>
       </div>
       <!-- 리뉴얼 사이트 -->
       <div class="swiper-slide swiper-slide_1">
