@@ -16,7 +16,6 @@ require_once "head.php";
 
 <!-- 전시회이미지 -->
 <div class="about_1_5 img-2">
-  <!-- <div class="text_5">*큰 액자를 클릭해서 보세요!</div> -->
   <img src="resource/img/bn_4_1.png" alt="">
 </div>
 <a href="resource/img/bn_4_1_1_1.png" data-lightbox="image-1">
