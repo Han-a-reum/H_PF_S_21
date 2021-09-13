@@ -234,7 +234,7 @@ body {
 .bn_1_2_0_1 {
   position: absolute;
   top: calc(50% - 500px);
-  left: calc(50% - 443px);
+  left: calc(50% - 440px);
   width: 885px;
   height: 1022px;
 }
@@ -325,8 +325,8 @@ body {
   position: absolute;
   width: 423px;
   height: 545px;
-  top: calc(50% - 458px);
-  left: calc(50% - 610px);
+  top: calc(50% - 448px);
+  left: calc(50% - 621px);
 }
 
 /* 어바웃 카톡 */
@@ -334,8 +334,8 @@ body {
   position: absolute;
   width: 426px;
   height: 644px;
-  top: calc(50% - 270px);
-  left: calc(50% + 133px);
+  top: calc(50% - 300px);
+  left: calc(50% + 120px);
 }
 
 /* pf */
