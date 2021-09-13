@@ -31,7 +31,7 @@ $pageCode = "home";
     <div class="box_1_2">
         <img class="bn_buttom_2 cursor-pointer" src="resource/img/bn_1_1_4.png" alt="">
         <img class="bn_1_2_0" src="resource/img/bn_1_2_0.png" alt="">
-        <img class="bn_1_2_0 image blinking" src="resource/img/bn_1_2_0_1.png" alt="">
+        <img class="bn_1_2_0_1 image blinking" src="resource/img/bn_1_2_0_1.png" alt="">
     </div>
     <!-- 우체통 이미지 -->
     <div class="bn_1_1_6"><img src="resource/img/bn_1_1_6.png" alt=""></div>

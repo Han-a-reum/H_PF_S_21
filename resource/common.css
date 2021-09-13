@@ -64,12 +64,12 @@ body {
   background-image:url("img/bn_0_1_1.png");
   background-position:center;
   background-repeat:no-repeat;
-  background-size: 1720px 1017px;
+  background-size: 1800px;
   display:flex;
   align-items:center;
   justify-content:center;
   z-index:1000;
-  transition:opacity 1.8s, visibility 1.8s;
+  transition:opacity 1.5s, visibility 1.8s;
 }
 
 .loading-box.hide {
@@ -155,7 +155,7 @@ body {
   position: absolute;
   width: 80px;
   top:calc(50% - 308px);
-  left:calc(50% + 688px);
+  left:calc(50% + 740px);
   height:650px;
 }
 
@@ -198,6 +198,14 @@ body {
   position: absolute;
   top:calc(50% - 500px);
   left:calc(50% - 440px);
+  width: 885px;
+  height: 1022px;
+}
+
+.bn_1_2_0_1{
+  position: absolute;
+  top:calc(50% - 500px);
+  left:calc(50% - 443px);
   width: 885px;
   height: 1022px;
 }
