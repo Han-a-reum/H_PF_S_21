@@ -24,8 +24,8 @@ $pageCode = "home";
     <div class="box_1_1">
         <img class="bn_buttom_1 cursor-pointer" src="resource/img/bn_1_1_3.png" alt="">
         <img class="bn_1_1_0" src="resource/img/bn_1_1_0.png" alt="">
-        <div class="bn_1_1_2 image blinking"><img id="img_1_2" src="resource/img/bn_1_1_2.png" alt=""></div>
-        <div><img src="resource" alt=""></div>
+        <div class="bn_1_1_0_2 image blinking"><img src="resource/img/bn_1_1_0_2.png" alt=""></div>
+        <div class="bn_1_1_0_2"><img src="resource/img/bn_1_1_0_1.png" alt=""></div>
     </div>
     <!-- 메인 라이트하우스 -->
     <div class="box_1_2">

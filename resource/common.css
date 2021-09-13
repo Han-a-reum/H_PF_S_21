@@ -141,13 +141,13 @@ body {
 
 /* 스탠드 반짝반짝 */
 .blinking {
-  -webkit-animation: blink 0.7s ease-in-out infinite alternate;
-  -moz-animation: blink 0.7s ease-in-out infinite alternate;
-  animation: blink 0.7s ease-in-out infinite alternate;
+  -webkit-animation: blink 3s ease-in-out infinite alternate;
+  -moz-animation: blink 2s ease-in-out infinite alternate;
+  animation: blink 0.5s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes blink {
-  0% {
+  10% {
     opacity: 0;
   }
 
@@ -157,7 +157,7 @@ body {
 }
 
 @-moz-keyframes blink {
-  0% {
+  50% {
     opacity: 0;
   }
 
@@ -167,14 +167,15 @@ body {
 }
 
 @keyframes blink {
-  0% {
+  20% {
     opacity: 0;
   }
 
-  100% {
+  50% {
     opacity: 1;
   }
 }
+
 
 /* 스탠드 반짝반짝 끝 */
 
@@ -240,10 +241,17 @@ body {
 }
 
 /* 스탠드 불빛 */
-.bn_1_1_2 {
+.bn_1_1_0_2 {
   position: absolute;
-  top: calc(50% - 130px);
-  left: calc(50% - 90px);
+  top: calc(50% - 250px);
+  left: calc(50% - 320px);
+}
+
+.bn_1_1_0_1 {
+  border: 1px solid red;
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 320px);
 }
 
 /* 다크 전등 스위치 */
