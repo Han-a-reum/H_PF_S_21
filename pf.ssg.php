@@ -17,7 +17,8 @@ $pageCode = "pf";
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_1_4.png" onmouseover="this.src='resource/img/bn_3_1_1.png'"
           onmouseout="this.src='resource/img/bn_3_1_4.png'">
-        <a href="https://han-a-reum.github.io/H_pf_ps_2021/" target='_blank'><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" alt=""></a>
+        <a href="https://han-a-reum.github.io/H_pf_ps_2021/" target='_blank'><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
+          onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
       <!-- 리뉴얼 사이트 -->
       <div class="swiper-slide swiper-slide_1">
@@ -32,8 +33,9 @@ $pageCode = "pf";
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'"
           onmouseout="this.src='resource/img/bn_3_2_1.png'">
-        <a href="https://han-a-reum.github.io/2021-DR-HAR/pf/work1/" target='_blank'><img
-            class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" alt=""></a>
+        <a href="https://han-a-reum.github.io/2021-DR-HAR/pf/work1/" target='_blank'>
+            <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
+          onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
       <div class="swiper-slide">준비중</div>
       <div class="swiper-slide">준비중</div>
