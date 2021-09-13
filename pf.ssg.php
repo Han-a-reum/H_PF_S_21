@@ -25,8 +25,11 @@ $pageCode = "pf";
         <img class="bn_3_2_1" src="resource/img/bn_3_3_1.png" onmouseover="this.src='resource/img/bn_3_3_1.png'"
           onmouseout="this.src='resource/img/bn_3_3_1.png'">
         <div class="bn_3_1_2_2">
-          <a href="#"><img class="bn_3_1_2_1 cursor-pointer" src="resource/img/bn_3_1_2.png" alt=""></a>
-          <a href="#"><img class="bn_3_1_3 cursor-pointer" src="resource/img/bn_3_1_3.png" alt=""></a>
+          <a href="#">
+          <img class="bn_3_1_2_1 cursor-pointer" src="resource/img/bn_3_1_3.png" onmouseover="this.src='resource/img/bn_3_1_3_3.png'"
+          onmouseout="this.src='resource/img/bn_3_1_3.png'"></a>
+          <a href="#"><img class="bn_3_1_3 cursor-pointer"  src="resource/img/bn_3_1_2.png" onmouseover="this.src='resource/img/bn_3_1_2_4.png'"
+          onmouseout="this.src='resource/img/bn_3_1_2.png'"></a>
         </div>
       </div>
       <!-- 데일리 루틴 -->
