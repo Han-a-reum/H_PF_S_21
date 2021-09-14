@@ -235,12 +235,12 @@ body {
 .bn_1_2_0_1 {
   position: absolute;
   top: calc(50% - 500px);
-  left: calc(50% - 440px);
+  left: calc(50% - 442px);
   width: 885px;
   height: 1022px;
 }
 
-/* 스탠드 불빛 */
+/* 네온 */
 .bn_1_1_0_2 {
   position: absolute;
   top: calc(50% - 250px);
