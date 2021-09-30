@@ -248,7 +248,6 @@ body {
 }
 
 .bn_1_1_0_1 {
-  border: 1px solid red;
   position: absolute;
   top: calc(50% - 250px);
   left: calc(50% - 320px);
