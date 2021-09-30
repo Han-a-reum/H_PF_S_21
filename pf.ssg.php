@@ -40,7 +40,12 @@ $pageCode = "pf";
             <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
           onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
-      <div class="swiper-slide">준비중</div>
+      <div class="swiper-slide swiper-slide_1">
+        <img class="bn_3_2_1" src="resource/img/bn_3_4_1.png" onmouseover="this.src='resource/img/bn_3_4_2.png'"
+          onmouseout="this.src='resource/img/bn_3_4_1.png'">
+        <a href="#" target='_blank'><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
+          onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
+      </div>
     </div>
     <!-- 포폴 페이지 번호 -->
     <div class="swiper-pagination"></div>
