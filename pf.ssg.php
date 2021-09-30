@@ -41,8 +41,6 @@ $pageCode = "pf";
           onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
       <div class="swiper-slide">준비중</div>
-      <div class="swiper-slide">준비중</div>
-      <div class="swiper-slide">준비중</div>
     </div>
     <!-- 포폴 페이지 번호 -->
     <div class="swiper-pagination"></div>

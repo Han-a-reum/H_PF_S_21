@@ -23,7 +23,7 @@ require_once "head.php";
     <img src="resource/img/bn_4_1_1.png" alt="">
   </div>
 </a>
-<a href="resource/img/bn_4_1_2_1.png" data-lightbox="image-2">
+<a href="resource/img/bn_4_1_2_1.png" data-lightbox="image-1">
   <div class="bn_4_1_2 img-2 cursor-pointer swing_1">
     <img src="resource/img/bn_4_1_2.png" alt="">
   </div>
