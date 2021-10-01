@@ -6,7 +6,7 @@ $pageCode = "etc";
 require_once "head.php";
 ?>
 <!-- 티켓이미지 -->
-<div class="about_1_4 img-1">
+<div class="about_1_4 img-1 btn-2 cursor-pointer">
 <img src="resource/img/bn_4_2.png" onmouseover="this.src='resource/img/bn_4_2_2.png'" onmouseout="this.src='resource/img/bn_4_2.png'">
 </div>
 <!-- 보러가기 -->

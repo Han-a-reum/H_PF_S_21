@@ -43,7 +43,7 @@ var swiper = new Swiper(".mySwiper", {
 
 // 기타 버튼
 function change1() {
-  $(".btn-1").click(function () {
+  $(".btn-1, .btn-2").click(function () {
     $(".img-2").addClass("show");
   });
 }
