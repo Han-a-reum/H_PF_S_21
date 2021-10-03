@@ -35,10 +35,13 @@ var swiper = new Swiper(".mySwiper", {
     delay: 2500,
     disableOnInteraction: false,
   },
-  pagination: {
-    el: ".swiper-pagination",
-    type: "fraction",
-  },
+});
+
+$('.swiper-slide').on('mouseover', function(){
+  swiper.autoplay.stop();
+});
+$('.swiper-slide').on('mouseout', function(){
+  swiper.autoplay.start();
 });
 
 // 기타 버튼

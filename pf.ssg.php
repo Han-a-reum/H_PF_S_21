@@ -47,8 +47,6 @@ $pageCode = "pf";
         <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'" onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
     </div>
-    <!-- 포폴 페이지 번호 -->
-    <div class="swiper-pagination"></div>
   </div>
 </div>
 
