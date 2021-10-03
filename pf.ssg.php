@@ -46,6 +46,12 @@ $pageCode = "pf";
         <a href="resource/img/bn_3_4_3.png" target='_blank'>
         <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'" onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
+            <!-- 어린왕자 -->
+            <div class="swiper-slide swiper-slide_1">
+        <img class="bn_3_2_1" src="resource/img/bn_3_5_1.png" onmouseover="this.src='resource/img/bn_3_5_1.png'" onmouseout="this.src='resource/img/bn_3_5_1.png'">
+        <a href="#" target='_blank'>
+        <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'" onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
+      </div>
     </div>
   </div>
 </div>
