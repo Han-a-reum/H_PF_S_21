@@ -32,7 +32,7 @@ var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   loop: true,
   autoplay: {
-    delay: 2500,
+    delay: 1500,
     disableOnInteraction: false,
   },
 });
