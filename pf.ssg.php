@@ -47,7 +47,18 @@ $pageCode = "pf";
         <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_5.png" onmouseover="this.src='resource/img/bn_3_1_3_6.png'"
           onmouseout="this.src='resource/img/bn_3_1_3_5.png'"></a>
       </div>
-
+      <!-- 리뉴얼 사이트2 -->
+      <div class="swiper-slide swiper-slide_1">
+        <img class="bn_3_2_1" src="resource/img/bn_3_5_1.png" onmouseover="this.src='resource/img/bn_3_5_2.png'"
+          onmouseout="this.src='resource/img/bn_3_5_1.png'">
+        <div class="bn_3_1_2_2">
+          <a href="https://han-a-reum.github.io/new_serieson_2021/" target='_blank'>
+          <img class="bn_3_1_2_1 cursor-pointer" src="resource/img/bn_3_1_2.png" onmouseover="this.src='resource/img/bn_3_1_2_4.png'"
+          onmouseout="this.src='resource/img/bn_3_1_2.png'"></a>
+          <a href="resource/imgbn_3_5_1_2.png" target='_blank'><img class="bn_3_1_3 cursor-pointer"  src="resource/img/bn_3_5_3_1.png" onmouseover="this.src='resource/img/bn_3_5_3_2.png'"
+          onmouseout="this.src='resource/img/bn_3_5_3_1.png'"></a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
