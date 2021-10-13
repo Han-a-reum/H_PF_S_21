@@ -1,6 +1,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>디자이너 한아름 포트폴리오</title>
+<title>크롬에 최적화-한아름 개인사이트</title>
 <!-- 테일윈드 -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
 <!-- 제이쿼리 -->
