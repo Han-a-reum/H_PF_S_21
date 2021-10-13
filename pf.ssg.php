@@ -55,7 +55,7 @@ $pageCode = "pf";
           <a href="https://han-a-reum.github.io/new_serieson_2021/" target='_blank'>
           <img class="bn_3_1_2_1 cursor-pointer" src="resource/img/bn_3_1_2.png" onmouseover="this.src='resource/img/bn_3_1_2_4.png'"
           onmouseout="this.src='resource/img/bn_3_1_2.png'"></a>
-          <a href="resource/imgbn_3_5_1_2.png" target='_blank'><img class="bn_3_1_3 cursor-pointer"  src="resource/img/bn_3_5_3_1.png" onmouseover="this.src='resource/img/bn_3_5_3_2.png'"
+          <a href="resource/img/bn_3_5_1_2.png" target='_blank'><img class="bn_3_1_3 cursor-pointer"  src="resource/img/bn_3_5_3_1.png" onmouseover="this.src='resource/img/bn_3_5_3_2.png'"
           onmouseout="this.src='resource/img/bn_3_5_3_1.png'"></a>
         </div>
       </div>
