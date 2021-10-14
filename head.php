@@ -18,7 +18,10 @@
 <script src="resource/common.js" defer></script>
 <!-- 사이트 공통 CSS -->
 <link rel="stylesheet" href="resource/common.css">
+
+<link rel="shortcut icon" href="resource/img/favicon.ico">
 </head>
+
 
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
