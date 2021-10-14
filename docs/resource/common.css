@@ -617,3 +617,34 @@ button {
     margin-top: 20px;
   }
 }
+
+.container{
+	margin: 0 auto;
+  position: absolute;
+  height: 900px;
+  width: 1250px;
+  top: calc(50% - 440px);
+  left: calc(50% - 645px);
+}
+
+ul.tabs li{
+	background: none;
+	color: white;
+	display: inline-block;
+	padding: 15px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	border: 1px solid white;
+	color: white;
+}
+
+.tab-content{
+	display: none;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}

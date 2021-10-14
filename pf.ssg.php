@@ -9,6 +9,14 @@ $pageCode = "pf";
   <img src="resource/img/bn_3_1.png" alt="">
 </div>
 
+<div class="container">
+
+<ul class="tabs cursor-pointer">
+  <li class="tab-link current cursor-pointer" data-tab="tab-1">포트폴리오</li>
+  <li class="tab-link cursor-pointer" data-tab="tab-2">디자인</li>
+</ul>
+
+<div id="tab-1" class="tab-content current">
 <!-- 포폴 슬라이드 -->
 <div class="pf_1_1">
   <div class="swiper mySwiper">
@@ -40,13 +48,6 @@ $pageCode = "pf";
             <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
           onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
-      <!-- 어린왕자 -->
-      <div class="swiper-slide swiper-slide_1">
-        <img class="bn_3_2_1" src="resource/img/bn_3_4_1.png" onmouseover="this.src='resource/img/bn_3_4_2.png'" onmouseout="this.src='resource/img/bn_3_4_1.png'">
-        <a href="resource/img/bn_3_4_3.png" target='_blank'>
-        <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_5.png" onmouseover="this.src='resource/img/bn_3_1_3_6.png'"
-          onmouseout="this.src='resource/img/bn_3_1_3_5.png'"></a>
-      </div>
       <!-- 리뉴얼 사이트2 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_5_1.png" onmouseover="this.src='resource/img/bn_3_5_2.png'"
@@ -62,6 +63,27 @@ $pageCode = "pf";
     </div>
   </div>
 </div>
+</div>
+<div id="tab-2" class="tab-content">
+<!-- 포폴 슬라이드 -->
+<div class="pf_1_1">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <!-- 어린왕자 -->
+      <div class="swiper-slide swiper-slide_1">
+        <img class="bn_3_2_1" src="resource/img/bn_3_4_1.png" onmouseover="this.src='resource/img/bn_3_4_2.png'" onmouseout="this.src='resource/img/bn_3_4_1.png'">
+        <a href="resource/img/bn_3_4_3.png" target='_blank'>
+        <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_5.png" onmouseover="this.src='resource/img/bn_3_1_3_6.png'"
+          onmouseout="this.src='resource/img/bn_3_1_3_5.png'"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+
 
 <?php
 require_once "foot.php";
