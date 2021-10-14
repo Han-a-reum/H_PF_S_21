@@ -69,7 +69,7 @@ $pageCode = "pf";
 <div class="pf_1_1">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <!-- 어린왕자 -->
+      <!-- 어린왕자1 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_4_1.png" onmouseover="this.src='resource/img/bn_3_4_2.png'" onmouseout="this.src='resource/img/bn_3_4_1.png'">
         <a href="resource/img/bn_3_4_3.png" target='_blank'>
