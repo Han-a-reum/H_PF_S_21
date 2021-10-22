@@ -648,3 +648,7 @@ ul.tabs li.current{
 .tab-content.current{
 	display: inherit;
 }
+
+.swiper-pagination{
+font-size: 1.5rem;
+}

@@ -32,16 +32,13 @@ var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   loop: true,
   autoplay: {
-    delay: 1500,
+    delay: 4000,
     disableOnInteraction: false,
   },
-});
-
-$('.swiper-slide').on('mouseover', function(){
-  swiper.autoplay.stop();
-});
-$('.swiper-slide').on('mouseout', function(){
-  swiper.autoplay.start();
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
 });
 
 // 기타 버튼
