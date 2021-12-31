@@ -78,7 +78,7 @@ $pageCode = "pf";
         <img class="bn_3_2_1" src="resource/img/bn_3_7_1.png" onmouseover="this.src='resource/img/bn_3_7_2.png'"
           onmouseout="this.src='resource/img/bn_3_7_1.png'">
         <div class="bn_3_1_2_2">
-          <a href="https://han-a-reum.github.io/new_subway_2021_video/" target='_blank'>
+          <a href="https://han-a-reum.github.io/Re_SUBWAY_2021_video/" target='_blank'>
           <img class="bn_3_1_2_1 cursor-pointer" src="resource/img/bn_3_1_2.png" onmouseover="this.src='resource/img/bn_3_1_2_4.png'"
           onmouseout="this.src='resource/img/bn_3_1_2.png'"></a>
           <a href="resource/img/bn_3_7_1_2.png" target='_blank'><img class="bn_3_1_3 cursor-pointer"  src="resource/img/bn_3_5_3_1.png" onmouseover="this.src='resource/img/bn_3_5_3_2.png'"
@@ -106,7 +106,7 @@ $pageCode = "pf";
         <img class="bn_3_2_1" src="resource/img/bn_3_8_1.png" onmouseover="this.src='resource/img/bn_3_8_2.png'"
           onmouseout="this.src='resource/img/bn_3_8_1.png'">
         <div class="bn_3_1_2_2">
-          <a href="https://han-a-reum.github.io/new_subway_2021_video/" target='_blank'>
+          <a href="https://han-a-reum.github.io/Re_SUBWAY_2021_video/pf.html" target='_blank'>
           <img class="bn_3_1_2_1 cursor-pointer" src="resource/img/bn_3_1_2.png" onmouseover="this.src='resource/img/bn_3_1_2_4.png'"
           onmouseout="this.src='resource/img/bn_3_1_2.png'"></a>
         </div>
