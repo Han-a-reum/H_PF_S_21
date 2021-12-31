@@ -85,7 +85,7 @@ $pageCode = "pf";
           onmouseout="this.src='resource/img/bn_3_5_3_1.png'"></a>
         </div>
       </div>
-    </div> <div class="swiper-pagination"></div>
+    </div> <div class="swiper-scrollbar"></div>
   </div>
 </div>
 </div>
