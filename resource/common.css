@@ -665,14 +665,14 @@ font-size: 1.5rem;
   border-radius: 10px;
   position: relative;
   -ms-touch-action: none;
-  background: rgba(255, 255, 255, 0.267);
+  background: rgba(255, 255, 255, 0.062);
 }
 
 .swiper-scrollbar-drag {
   height: 100%;
   width: 100%;
   position: relative;
-  background: rgb(255, 255, 255);
+  background: linear-gradient( to left,  #c400ff,  #ff67e7,#fff338, #0cecdd);
   border-radius: 10px;
   left: 0;
   top: 0;

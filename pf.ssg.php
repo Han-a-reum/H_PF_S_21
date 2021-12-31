@@ -118,7 +118,7 @@ $pageCode = "pf";
         <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_5.png" onmouseover="this.src='resource/img/bn_3_1_3_6.png'"
           onmouseout="this.src='resource/img/bn_3_1_3_5.png'"></a>
       </div>
-    </div>
+    </div> <div class="swiper-scrollbar"></div>
   </div>
 </div>
 
