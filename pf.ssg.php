@@ -21,6 +21,16 @@ $pageCode = "pf";
 <div class="pf_1_1">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
+
+            <!-- 데일리 루틴 -->
+            <div class="swiper-slide swiper-slide_1">
+        <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'"
+          onmouseout="this.src='resource/img/bn_3_2_1.png'">
+        <a href="https://han-a-reum.github.io/2021-DR-HAR/pf/work1/" target='_blank'>
+            <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
+          onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
+      </div>
+
       <!-- 개인 사이트 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_1_4.png" onmouseover="this.src='resource/img/bn_3_1_1.png'"
@@ -28,6 +38,7 @@ $pageCode = "pf";
         <a href="https://han-a-reum.github.io/H_pf_ps_2021/" target='_blank'><img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
           onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
       </div>
+      
       <!-- 러쉬 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_3_1.png" onmouseover="this.src='resource/img/bn_3_3_2.png'"
@@ -41,14 +52,7 @@ $pageCode = "pf";
           onmouseout="this.src='resource/img/bn_3_1_3.png'"></a>
         </div>
       </div>
-      <!-- 데일리 루틴 -->
-      <div class="swiper-slide swiper-slide_1">
-        <img class="bn_3_2_1" src="resource/img/bn_3_2_1.png" onmouseover="this.src='resource/img/bn_3_2_2.png'"
-          onmouseout="this.src='resource/img/bn_3_2_1.png'">
-        <a href="https://han-a-reum.github.io/2021-DR-HAR/pf/work1/" target='_blank'>
-            <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_1.png" onmouseover="this.src='resource/img/bn_3_1_3_2.png'"
-          onmouseout="this.src='resource/img/bn_3_1_3_1.png'"></a>
-      </div>
+
       <!-- 시리즈온 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_5_1.png" onmouseover="this.src='resource/img/bn_3_5_2.png'"
@@ -61,6 +65,7 @@ $pageCode = "pf";
           onmouseout="this.src='resource/img/bn_3_5_3_1.png'"></a>
         </div>
       </div>
+
             <!-- cgv -->
             <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_6_1.png" onmouseover="this.src='resource/img/bn_3_6_2.png'"
@@ -73,6 +78,7 @@ $pageCode = "pf";
           onmouseout="this.src='resource/img/bn_3_5_3_1.png'"></a>
         </div>
       </div>
+
             <!-- 서브웨이 -->
             <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_7_1.png" onmouseover="this.src='resource/img/bn_3_7_2.png'"
@@ -85,6 +91,7 @@ $pageCode = "pf";
           onmouseout="this.src='resource/img/bn_3_5_3_1.png'"></a>
         </div>
       </div>
+
     </div> <div class="swiper-scrollbar"></div>
   </div>
 </div>
@@ -94,6 +101,7 @@ $pageCode = "pf";
 <div class="pf_1_1">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
+
       <!-- 월요일이 사라졌다 -->
       <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_9_1.png" onmouseover="this.src='resource/img/bn_3_9_2.png'" onmouseout="this.src='resource/img/bn_3_9_1.png'">
@@ -101,6 +109,15 @@ $pageCode = "pf";
         <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_5.png" onmouseover="this.src='resource/img/bn_3_1_3_6.png'"
           onmouseout="this.src='resource/img/bn_3_1_3_5.png'"></a>
       </div>
+
+            <!-- 어린왕자1 -->
+            <div class="swiper-slide swiper-slide_1">
+        <img class="bn_3_2_1" src="resource/img/bn_3_4_1.png" onmouseover="this.src='resource/img/bn_3_4_2.png'" onmouseout="this.src='resource/img/bn_3_4_1.png'">
+        <a href="resource/img/bn_3_4_3.png" target='_blank'>
+        <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_5.png" onmouseover="this.src='resource/img/bn_3_1_3_6.png'"
+          onmouseout="this.src='resource/img/bn_3_1_3_5.png'"></a>
+      </div>
+      
                   <!-- 서브웨이 -->
                   <div class="swiper-slide swiper-slide_1">
         <img class="bn_3_2_1" src="resource/img/bn_3_8_1.png" onmouseover="this.src='resource/img/bn_3_8_2.png'"
@@ -111,13 +128,7 @@ $pageCode = "pf";
           onmouseout="this.src='resource/img/bn_3_1_2.png'"></a>
         </div>
       </div>
-            <!-- 어린왕자1 -->
-            <div class="swiper-slide swiper-slide_1">
-        <img class="bn_3_2_1" src="resource/img/bn_3_4_1.png" onmouseover="this.src='resource/img/bn_3_4_2.png'" onmouseout="this.src='resource/img/bn_3_4_1.png'">
-        <a href="resource/img/bn_3_4_3.png" target='_blank'>
-        <img class="bn_3_1_2 cursor-pointer" src="resource/img/bn_3_1_3_5.png" onmouseover="this.src='resource/img/bn_3_1_3_6.png'"
-          onmouseout="this.src='resource/img/bn_3_1_3_5.png'"></a>
-      </div>
+
     </div> <div class="swiper-scrollbar"></div>
   </div>
 </div>
